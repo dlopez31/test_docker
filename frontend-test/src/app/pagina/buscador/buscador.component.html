@@ -1,0 +1,23 @@
+<app-nav (eventRespuesta)="listarProducto($event)"></app-nav>
+<div *ngIf="respuesta" class="productos container">
+  <div *ngFor="let product of products" class="card m-3" style="width: 15rem;">
+    <img [src]="product.image | image" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <div class="div-marca">
+        <h6 class="card-title">{{ product.brand }}</h6>
+        <p>{{ product.brand }}</p>
+      </div>
+      <div class="div-precio">
+        <p class="precio-descuento">{{ product.price | currency: "$" }}</p>
+        <mat-chip-list *ngIf="respuesta.palindomo" aria-label="Fish selection">
+          <mat-chip style="background: rgb(247, 53, 85);" selected>{{
+            respuesta.palindomo ? "50%" : "0%"
+          }}</mat-chip>
+        </mat-chip-list>
+      </div>
+      <div *ngIf="respuesta.palindomo" class="precio-total">
+        <p>{{ product.price * 2 | currency: "$" }}</p>
+      </div>
+    </div>
+  </div>
+</div>

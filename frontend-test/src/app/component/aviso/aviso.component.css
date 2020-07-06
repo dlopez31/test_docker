@@ -1,0 +1,17 @@
+.aviso * {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.aviso {
+  height: 35px;
+  padding: 10px;
+  width: 100%;
+  background: #003758;
+  color: white;
+  font-size: 11px;
+}
+
+div span {
+  color: rgb(64, 38, 214);
+}

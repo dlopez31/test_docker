@@ -1,0 +1,80 @@
+.productos {
+  padding-left: 10%;
+}
+
+.productos * {
+  display: inline-block;
+}
+
+.card-img-top {
+  background: rgba(227, 227, 227, 0.89);
+  background: -moz-linear-gradient(
+    top,
+    rgba(227, 227, 227, 0.89) 0%,
+    rgba(211, 211, 211, 0.89) 52%,
+    rgba(196, 196, 196, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(227, 227, 227, 0.89)),
+    color-stop(52%, rgba(211, 211, 211, 0.89)),
+    color-stop(100%, rgba(196, 196, 196, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(227, 227, 227, 0.89) 0%,
+    rgba(211, 211, 211, 0.89) 52%,
+    rgba(196, 196, 196, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(227, 227, 227, 0.89) 0%,
+    rgba(211, 211, 211, 0.89) 52%,
+    rgba(196, 196, 196, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(227, 227, 227, 0.89) 0%,
+    rgba(211, 211, 211, 0.89) 52%,
+    rgba(196, 196, 196, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(227, 227, 227, 0.89) 0%,
+    rgba(211, 211, 211, 0.89) 52%,
+    rgba(196, 196, 196, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', endColorstr='#c4c4c4', GradientType=0 );
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-body > .div-marca * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card-body > .div-precio * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.precio-descuento {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.precio-total {
+  position: absolute;
+  margin-left: 20px;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.precio-total > p {
+  text-decoration: line-through;
+}

@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  frontend:
+    container_name: frontendapp
+    restart: always
+    build: frontend-test
+    ports:
+      - '4200:4200'
+  backend:
+    container_name: testapp
+    restart: always
+    build: backend-test
+    ports:
+      - '3000:3000'

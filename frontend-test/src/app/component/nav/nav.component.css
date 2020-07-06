@@ -1,0 +1,75 @@
+div span {
+  color: rgb(64, 38, 214);
+}
+.menu {
+  height: 70px;
+}
+
+.logo-lider {
+  margin-right: 30px;
+  width: 100px;
+}
+
+.form-group .form-control {
+  margin-right: 80px;
+  padding-left: 2.375rem;
+  font-size: 18px;
+  width: 600px;
+  border-radius: 62px 62px 62px 62px;
+  -moz-border-radius: 62px 62px 62px 62px;
+  -webkit-border-radius: 62px 62px 62px 62px;
+}
+
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 1.375rem;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  text-align: center;
+  pointer-events: none;
+  margin-left: 10px;
+  margin-right: 20px;
+  color: #aaa;
+}
+
+.md-chip-icon {
+  margin-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  float: right;
+  background: yellow;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #003758;
+}
+
+.colorsvg {
+  fill: rgb(188, 214, 94);
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #003758;
+  border-color: #003758;
+}
+
+.resultado {
+  margin: 30px 0px 0px 30px;
+}
+
+.resultado * {
+  display: inline-block;
+}
+
+.resultado span {
+  margin-left: 5px;
+  color: black;
+  font-weight: bold;
+}
